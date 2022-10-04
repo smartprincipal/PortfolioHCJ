@@ -4,11 +4,13 @@
  box-sizing: border-box;
 }
 body{
-
+ background-color: #080808;
 }
 
 .heroSection{
-
+ background-color: #080808;
+ height: 700px;
+ padding-top: 3rem;
 }
 header{
  display: flex;
@@ -68,23 +70,128 @@ width: 95px;
 height: 38px;
 color: #fff;
 }
-
-.landing-menu{
- display: none;
-}
-.sub-pages{
-display: none;
-}
-.dropdown{
- color: gold;
- text-decoration: none;
+.subHeroSection{
  display: flex;
- flex-direction: column;
- list-style-type: none;
- margin-top: 10px;
- /* position: absolute; */
- display: none;
 }
+.content{
+ color: #fff;
+ padding-left: 80px;
+ padding-right: 80px;
+ text-align: left;
+ margin-top: 85px;
+ max-width: 720px;
+ font-family: Poppins;
+font-size: 50px;
+font-weight: 700;
+line-height: 75px;
+}
+.I{
+ color: #595959;
+}
+.frontend{
+font-size: 28px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+color: #DFDFDF;
+
+}
+.btn2{
+ width: 278px;
+ height: 75px;
+ border-radius: 40px;
+ padding: 20px, 30px, 20px, 30px;
+ font-family: Roboto;
+font-size: 30px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0em;
+/* text-align: left; */
+color: #fff;
+background-color: gold;
+cursor: pointer;
+margin-top: 20px;
+}
+/* .subHeroSectionImg{
+ width: 100px;
+ height: 50px;
+} */
+.worked{
+ /* display: flex; */
+ justify-content: center;
+ text-align: center;
+ /* margin-top: 30px; */
+ color: #B4B4B4;
+ font-family: Poppins;
+font-size: 50px;
+font-weight: 700;
+line-height: 75px;
+/* background-color: #1B262C; */
+background-color: #080808;
+
+}
+.logos{
+ margin-top: 50px;
+ /* background-color: #1B262C; */
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+ height: 100px;
+ align-items: center;
+}
+.section2Heading{
+ text-align: center;
+ font-size: 60px;
+ font-weight: 700px;
+ color: #fff;
+}
+.afroso{
+ display: flex;
+ margin-left: 100px;
+ margin-right: 100px;
+ gap: 200px;
+ /* justify-content: space-around; */
+ margin-top: 50px;
+}
+.projectImg img{
+ width: 550px;
+}
+a{
+ text-decoration: none;
+ cursor: pointer;
+}
+a:hover{
+ text-decoration: underline;
+ color: chocolate;
+}
+.heading{
+ color: #eee;
+ font-size: 32px;
+ text-decoration: none;
+
+}
+.afrosoContent{
+ margin-top: 15px;
+ color: #fff;
+ width: 500px;
+ line-height: 30px;
+}
+.note{
+ font-weight: bolder;
+ margin-top: 15px;
+}
+.checkLink{
+ font-size: 18px;
+ color:blue;
+ padding-top: 25px;
+ font-weight: 900;
+}
+.checkLink:hover{
+ text-decoration: underline;
+ color: gold;
+}
+
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 800px) {
