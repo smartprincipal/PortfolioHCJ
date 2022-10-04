@@ -191,6 +191,31 @@ a:hover{
  text-decoration: underline;
  color: gold;
 }
+.section3{
+ position: absolute;
+ margin-top: 80px;
+}
+.aboutbtn{
+ max-width: 900px;
+ height: 95px;
+ border-radius: 40px;
+ padding: 20px, 30px, 20px, 30px;
+ font-family: Roboto;
+font-size: 45px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0em;
+/* text-align: left; */
+color: #fff;
+background-color: gold;
+cursor: pointer;
+margin-top: 20px;
+position: relative;
+left: 60%;
+/* right: 50%; */
+/* margin-left: 400px; */
+/* text-align: center; */
+}
 
 
 /* Mobile Responsiveness */
